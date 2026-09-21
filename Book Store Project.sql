@@ -51,7 +51,7 @@ SET GLOBAL local_infile = 1;
 --  load the data from the downloaded file of books data 
 
 LOAD DATA LOCAL INFILE
-'C:/Users/SUBHASH KUMAR PASWAN/Downloads/30 Day - SQL Practice Files- SD50 (2)/30 Day - SQL Practice Files/Books.csv'
+'data/Books.csv'
 INTO TABLE books
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -63,7 +63,7 @@ IGNORE 1 ROWS
 --  load the data from the downloaded file of customers data 
 
 LOAD DATA LOCAL INFILE
-'C:/Users/SUBHASH KUMAR PASWAN/Downloads/30 Day - SQL Practice Files- SD50 (2)/30 Day - SQL Practice Files/Customers.csv'
+'data/Customers.csv'
 INTO TABLE customers
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -74,7 +74,7 @@ IGNORE 1 ROWS
 -- load the data from the downloaded file of orders data 
 
 LOAD DATA LOCAL INFILE
-'C:/Users/SUBHASH KUMAR PASWAN/Downloads/30 Day - SQL Practice Files- SD50 (2)/30 Day - SQL Practice Files/Orders.csv'
+'data/Orders.csv'
 INTO TABLE orders
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
